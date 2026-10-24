@@ -831,7 +831,7 @@ Status key:
   - P2: raw D1 −0.18/−0.14/−0.17; local_W25 D1 −0.22/−0.23/−0.24; h48 D1 passes 3/3 MS hands, Boccaccio fails; `page_line_copier` 6/6 on 1A/2B/3B.
   - P3: section↔illustration match 1.00; h10 unique section R² 0.025 (≤ 0.05 bar).
   - P4: h51 L1/L2 remain false; picture anchors only (Roman months, jar/root image typology); no EVA glosses.
-- **Commits:** 8c88225 (prereg), 54c590e (results and log)
+- **Commits:** 8c88225 (prereg), 7b9e477 (results and log)
 - **Status:** closed (hybrid supported as working theory; not a reading)
 - **Led to:** —
 
