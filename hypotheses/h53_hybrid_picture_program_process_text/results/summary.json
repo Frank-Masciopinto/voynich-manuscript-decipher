@@ -1,0 +1,49 @@
+{
+  "hypothesis": "h53_hybrid_picture_program_process_text",
+  "verdict": "hybrid_supported",
+  "n_pass": 4,
+  "predictions": {
+    "P1": true,
+    "P2": true,
+    "P3": true,
+    "P4": true
+  },
+  "highlights": {
+    "t1_rho": 0.9999999999999999,
+    "t1_tau": 1.0,
+    "t1_p": 0.005,
+    "t1_means": {
+      "herbal": 72.67441860465117,
+      "zodiac": 137.5,
+      "biological": 153.89473684210526,
+      "pharmaceutical": 188.25,
+      "stars": 204.96
+    },
+    "t1_h52_rho": 0.19999999999999998,
+    "t1_h52_p": 0.453,
+    "t2_raw_D1": {
+      "1A": -0.17752738752897557,
+      "2B": -0.13506190581906807,
+      "3B": -0.17115893943832106
+    },
+    "t2_local_W25_D1": {
+      "1A": -0.22492267472754257,
+      "2B": -0.23250146205653444,
+      "3B": -0.2401649287396026
+    },
+    "t2_plc_n_passed": {
+      "1A": 6,
+      "2B": 6,
+      "3B": 6
+    },
+    "t3_illust_match": 1.0,
+    "t3_unique_section_R2": 0.0251723866017969,
+    "t4_labels_null": true,
+    "t4_h51_L1": false,
+    "t4_h51_L2": false
+  },
+  "runtime_sec": 0.5122101306915283,
+  "seed": 53,
+  "n_perm": 1000,
+  "disclaimer": "Working theory about picture program + writing process. Not a translation. No EVA glosses invented."
+}

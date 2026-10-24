@@ -1,0 +1,166 @@
+{
+  "hypothesis": "h53_hybrid_picture_program_process_text",
+  "seed": 53,
+  "n_perm": 1000,
+  "t1_picture_order": {
+    "means_ord": {
+      "herbal": 72.67441860465117,
+      "zodiac": 137.5,
+      "biological": 153.89473684210526,
+      "pharmaceutical": 188.25,
+      "stars": 204.96
+    },
+    "primary": {
+      "order": [
+        "herbal",
+        "zodiac",
+        "biological",
+        "pharmaceutical",
+        "stars"
+      ],
+      "spearman_rho": 0.9999999999999999,
+      "kendall_tau": 1.0,
+      "p": 0.005,
+      "null_p95": 0.7999999999999999
+    },
+    "sensitivity_A2": {
+      "order": [
+        "herbal",
+        "zodiac",
+        "biological",
+        "pharmaceutical",
+        "sky_late"
+      ],
+      "means_ord": {
+        "herbal": 72.67441860465117,
+        "zodiac": 137.5,
+        "biological": 153.89473684210526,
+        "pharmaceutical": 188.25,
+        "sky_late": 185.65714285714284
+      },
+      "spearman_rho": 0.8999999999999998,
+      "kendall_tau": 0.8,
+      "p": 0.04
+    },
+    "h52_contrast": {
+      "order": [
+        "water_blood",
+        "moon",
+        "plants",
+        "end_yoga"
+      ],
+      "means_ord": {
+        "water_blood": 153.89473684210526,
+        "moon": 137.5,
+        "plants": 85.42758620689655,
+        "end_yoga": 213.0
+      },
+      "spearman_rho": 0.19999999999999998,
+      "kendall_tau": 0.0,
+      "p": 0.453,
+      "stored": {
+        "stored_verdict": "no_match",
+        "stored_t1_rho": 0.2,
+        "stored_t1_p": 0.4515
+      }
+    },
+    "P1": true
+  },
+  "t2_process_text": {
+    "raw_D1": {
+      "1A": -0.17752738752897557,
+      "2B": -0.13506190581906807,
+      "3B": -0.17115893943832106
+    },
+    "local_W25_D1": {
+      "1A": -0.22492267472754257,
+      "2B": -0.23250146205653444,
+      "3B": -0.2401649287396026
+    },
+    "P2a_hands_D1_le_0": [
+      "1A",
+      "2B",
+      "3B"
+    ],
+    "P2a": true,
+    "depadded_hands_D1_le_0": [
+      "1A",
+      "2B",
+      "3B"
+    ],
+    "P2_depadded": true,
+    "h48_D1_pass_hands": [
+      "1A",
+      "2B",
+      "3B"
+    ],
+    "it_boccaccio_S_edit": -0.0006103881337901629,
+    "it_boccaccio_D1_pass": false,
+    "P2_drift": true,
+    "page_line_copier_n_passed": {
+      "1A": 6,
+      "2B": 6,
+      "3B": 6
+    },
+    "plc_ok_hands": [
+      "1A",
+      "2B",
+      "3B"
+    ],
+    "P2_plc": true,
+    "P2": true,
+    "sources": [
+      "h47",
+      "h48",
+      "h49"
+    ]
+  },
+  "t3_split": {
+    "section_illustration_match_rate": 1.0,
+    "n_mismatch": 0,
+    "n_pages": 226,
+    "P3a": true,
+    "unique_section_R2": 0.0251723866017969,
+    "alone_section_R2": 0.1486949576607756,
+    "unique_quire_R2": 0.0683273688602776,
+    "unique_hand_R2": 0.0146327272259212,
+    "h10_summary_keys": [
+      "variance"
+    ],
+    "note": "Section\u2194illustration is the picture coding. Unique section R\u00b2 from h10 is small; FINDINGS/h11: section on hand residuals dies when quire is removed.",
+    "P3b": true,
+    "P3": true,
+    "sources": [
+      "quires.csv",
+      "h10"
+    ]
+  },
+  "t4_thin_residual": {
+    "h51_L1": false,
+    "h51_L2": false,
+    "h51_L1_edit1_p_holm": 0.4587706146926537,
+    "h51_L2_primary_p": 0.08895552223888056,
+    "labels_remain_null": true,
+    "picture_order_P1": true,
+    "anchors_used": {
+      "roman_month_names_h05": "Zodiac circle-centre words are later Roman-script month names (Mars, Abril, May, \u2026), not Voynichese (h05).",
+      "image_typology": "Illustration codes track section (H herbal plants, Z zodiac, B baths/nymphs, P pharma jars/roots, S stars) \u2014 picture-side only; no EVA glosses."
+    },
+    "P4": true,
+    "sources": [
+      "h51",
+      "h05",
+      "T1"
+    ]
+  },
+  "predictions": {
+    "P1": true,
+    "P2": true,
+    "P3": true,
+    "P4": true,
+    "n_pass": 4,
+    "verdict": "hybrid_supported"
+  },
+  "runtime_sec": 0.5122101306915283,
+  "disclaimer": "Working theory about picture program + writing process. Not a translation. No EVA glosses invented."
+}

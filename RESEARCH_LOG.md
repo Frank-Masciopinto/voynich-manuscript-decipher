@@ -819,3 +819,19 @@ Status key:
 - **Commits:** 80c564c (prereg), 074f01b (results and log)
 - **Status:** closed (thematic reading unsupported; nearby section/calendar/copy readings fit better)
 - **Led to:** —
+
+### L63 · 2026-10-24 15:14 · h53 hybrid picture-program + process-text working theory
+- **Folder:** [hypotheses/h53_hybrid_picture_program_process_text/](hypotheses/h53_hybrid_picture_program_process_text/)
+- **Question:** can MS 408 be described as an astrological herbal / spa *picture program* (Theory A) whose body text is mostly a page-and-line *copy process* (Theory D / h47), without claiming a translation?
+- **Done:**
+  - Pre-registered four tests (picture order, process text, split prediction, thin A residual) before any computing (commit 8c88225).
+  - Newly computed medical-calendar section-order Spearman vs 1000 rank permutations (seed 53) and section↔illustration match; reused stored h47/h48/h49/h10/h51/h52 summaries for D-side and label nulls.
+- **Result:**
+  - **Hybrid supported (4/4).** P1 ρ=1.00 (p=0.005): herbal 72.7 → zodiac 137.5 → biological 153.9 → pharmaceutical 188.3 → stars 205.0. h52 menstrual contrast ρ=0.20 (p=0.453).
+  - P2: raw D1 −0.18/−0.14/−0.17; local_W25 D1 −0.22/−0.23/−0.24; h48 D1 passes 3/3 MS hands, Boccaccio fails; `page_line_copier` 6/6 on 1A/2B/3B.
+  - P3: section↔illustration match 1.00; h10 unique section R² 0.025 (≤ 0.05 bar).
+  - P4: h51 L1/L2 remain false; picture anchors only (Roman months, jar/root image typology); no EVA glosses.
+- **Commits:** 8c88225 (prereg), 54c590e (results and log)
+- **Status:** closed (hybrid supported as working theory; not a reading)
+- **Led to:** —
+
