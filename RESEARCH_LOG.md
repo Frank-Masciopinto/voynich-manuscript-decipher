@@ -802,3 +802,21 @@ Status key:
 - **Commits:** ecacc79 (prereg), (results and log commit)
 - **Status:** closed (labels do not anchor folio-specific paragraph seeds or de-padded herbal–pharma pairs)
 - **Led to:** —
+
+### L62 · 2026-10-24 15:04 · h52 menstrual-plant-moon-yoga thematic reading
+- **Folder:** [hypotheses/h52_menstrual_plant_moon_yoga/](hypotheses/h52_menstrual_plant_moon_yoga/)
+- **Question:** does MS 408’s structure and vocabulary fit a story of woman-only creation of plants from menstrual blood in water, one plant per moon period, with yoga-like science at the end — without inventing a translation?
+- **Done:**
+  - Pre-registered six tests (structure order, bath–plant link, moon–plant mapping, published water/seed cribs, end register, directional bifolio) before any computing (commit 80c564c).
+  - Ran on ZL3b + `quires.csv` + h09 visual tags / candidate lists + h01 `qo`/`dy`; 2,000 permutations, seed 52.
+- **Result:**
+  - **No match (0/6).** P1 ρ=0.20 (p=0.45): plants (mean ord 85) precede moon (138) and baths (154); end stars at 213.
+  - P2 bath→herbal stem-hit 0.89 < null 0.93 (p=0.98); h09 water within-quire Holm=1.0.
+  - P3 zodiac more like stars running text than herbal (0.592 vs 0.579); herbal-vs-random p=0.97.
+  - P4a water/nymph vs root Δlrr=3.11 (p≈0) and P4b `qo` not herbal-enriched, but within-quire Holm=1.0 → P4 fails.
+  - P5 Q20 vs Q8: 0/4 Holm; D1 matches early herbal (gap −0.009).
+  - P6 only 1 mixed bifolium; forward−reverse p=0.51.
+- **Commits:** 80c564c (prereg), (results and log commit)
+- **Status:** closed (thematic reading unsupported; nearby section/calendar/copy readings fit better)
+- **Led to:** —
+

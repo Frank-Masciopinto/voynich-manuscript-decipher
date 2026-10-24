@@ -1,0 +1,179 @@
+{
+  "seed": 52,
+  "n_perm": 2000,
+  "runtime_sec": 31.102964639663696,
+  "t1_structure": {
+    "means_ord": {
+      "water_blood": 153.89473684210526,
+      "moon": 137.5,
+      "plants": 85.42758620689655,
+      "end_yoga": 213.0
+    },
+    "primary": {
+      "order": [
+        "water_blood",
+        "moon",
+        "plants",
+        "end_yoga"
+      ],
+      "spearman_rho": 0.2,
+      "kendall_tau": 0.0,
+      "null_mean": 0.003999999999999999,
+      "null_p95": 0.8,
+      "p": 0.4515
+    },
+    "alt_A2": {
+      "order": [
+        "moon",
+        "water_blood",
+        "plants",
+        "end_yoga"
+      ],
+      "spearman_rho": 0.4,
+      "kendall_tau": 0.3333333333333333
+    },
+    "P1": false
+  },
+  "t2_bath_plant": {
+    "per_hand": [
+      {
+        "hand": "2",
+        "lang": "B",
+        "js_bio_herb": 0.24524862222203514,
+        "js_bio_stars": null,
+        "js_bio_zodiac": null,
+        "jacc50_bio_herb": 0.3333333333333333,
+        "n_bio": 6205,
+        "n_herb": 2313
+      }
+    ],
+    "nymph_tube_label_stem_hit_rate": 0.8888888888888888,
+    "nymph_tube_label_edit1_hit_rate": 0.9487179487179487,
+    "n_nymph_tube_label_tokens": 117,
+    "null_hit_mean": 0.929846153846154,
+    "null_hit_p95": 0.9401709401709402,
+    "p_hit": 0.979,
+    "bio_closer_to_herb_than_moon_end": [
+      true
+    ],
+    "h09_water_min_holm_within_quire": 1.0,
+    "P2": false
+  },
+  "t3_moon_plant": {
+    "n_zodiac_pages": 12,
+    "n_zodiac_label_tokens": 334,
+    "sim_to_herbal": 0.5789549556370183,
+    "sim_to_stars": 0.592026018849556,
+    "sim_to_pharma": 0.5694261043665971,
+    "p_sim_herbal_vs_random": 0.9745,
+    "overlap_zodiac_to_plant_labels": 0.7694610778443114,
+    "overlap_zodiac_to_star_labels": 0.0,
+    "overlap_zodiac_to_jar_labels": 0.3203592814371258,
+    "p_overlap_herb_beats_star": 0.0,
+    "adjacent_zodiac_sim": 0.5349834806328783,
+    "p_cycle": 0.0125,
+    "P3": false
+  },
+  "t4_cribs": {
+    "female_side_words": [
+      "qol",
+      "olkedy",
+      "qokain",
+      "qoteedy",
+      "qokedy"
+    ],
+    "seed_side_words": [
+      "ctheol",
+      "ckhey",
+      "qoor",
+      "qokeody",
+      "qockhey"
+    ],
+    "mean_lrr_female_on_bio": 4.668139717364573,
+    "mean_lrr_seed_on_herb": 1.5573809769033229,
+    "diff_female_minus_seed": 3.1107587404612502,
+    "p_P4a": 0.0,
+    "P4a": true,
+    "qo_lrr_herb_vs_bio": -0.04972502352834422,
+    "p_enrich_qo": 0.8525,
+    "P4b_not_enriched": true,
+    "h09_water_min_holm_within_quire": 1.0,
+    "h09_nymph_min_holm_within_quire": 1.0,
+    "within_quire_survives": false,
+    "P4": false,
+    "note": "No EVA glosses invented; uses h01 qo/dy and h09 candidate lists only."
+  },
+  "t5_end_yoga": {
+    "end_Q20": {
+      "n_lines": 1084,
+      "n_tok": 10763,
+      "cv": 0.2565840903077631,
+      "gallows_rate": 0.8695652173913043,
+      "ttr": 0.2779894081575769,
+      "d1": -3.4216698757245148,
+      "pos_mi": 0.3816233361058864
+    },
+    "stars_Q8": {
+      "n_lines": 80,
+      "n_tok": 742,
+      "cv": 0.20024251322219147,
+      "gallows_rate": 1.0,
+      "ttr": 0.6037735849056604,
+      "d1": -1.1878987188882437,
+      "pos_mi": 0.5648614669154747
+    },
+    "early_herbal_matched": {
+      "n_lines": 1542,
+      "n_tok": 10825,
+      "cv": 0.3778650214152738,
+      "gallows_rate": 0.8833333333333333,
+      "ttr": 0.2848960739030023,
+      "d1": -3.413052494193275,
+      "pos_mi": 0.19951178793590368,
+      "n_folios": 123
+    },
+    "obs_diff_end_minus_Q8": {
+      "gallows_rate": -0.13043478260869568,
+      "pos_mi": -0.18323813080958828,
+      "ttr": -0.32578417674808346,
+      "d1": -2.233771156836271
+    },
+    "holm_p_diff": {
+      "gallows_rate": 1.0,
+      "pos_mi": 1.0,
+      "ttr": 0.616,
+      "d1": 0.616
+    },
+    "n_metrics_holm_lt_05": 0,
+    "d1_end_minus_early_herbal": -0.008617381531239587,
+    "P5": false
+  },
+  "t6_directional": {
+    "n_bifolia_with_water_and_plant": 1,
+    "n_forward_pairs": 1,
+    "n_reverse_pairs": 1,
+    "mean_forward_stem_hit": 0.875,
+    "mean_reverse_stem_hit": 0.675,
+    "forward_minus_reverse": 0.19999999999999996,
+    "p_directional": 0.512,
+    "p_forward_vs_random_plant": 0.02,
+    "P6": false,
+    "note": "Most herbal pages precede Q13; mixed bifolia are rare."
+  },
+  "predictions": {
+    "P1": false,
+    "P2": false,
+    "P3": false,
+    "P4": false,
+    "P5": false,
+    "P6": false,
+    "n_pass": 0,
+    "verdict": "no_match"
+  },
+  "nearby_better_fits": {
+    "baths_as_spa_balneology": "biological = Q13 only; vocab link to plants fails within-hand null (T2)",
+    "zodiac_as_calendar": "Roman-script month names (h05); no Voynichese plant cycling (T3/h06)",
+    "pharma_as_jars": "h09 jar/root labels; no menstrual reading required",
+    "end_stars_as_copy_text": "Q20 matches the same copy/line regime as the rest (T5/h47), not a distinct yoga register"
+  }
+}

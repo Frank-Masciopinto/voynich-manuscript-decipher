@@ -1,0 +1,39 @@
+{
+  "verdict": "no_match",
+  "n_pass": 0,
+  "predictions": {
+    "P1": false,
+    "P2": false,
+    "P3": false,
+    "P4": false,
+    "P5": false,
+    "P6": false
+  },
+  "highlights": {
+    "t1_rho": 0.2,
+    "t1_p": 0.4515,
+    "t1_means": {
+      "water_blood": 153.89473684210526,
+      "moon": 137.5,
+      "plants": 85.42758620689655,
+      "end_yoga": 213.0
+    },
+    "t2_hit_rate": 0.8888888888888888,
+    "t2_p_hit": 0.979,
+    "t3_p_cycle": 0.0125,
+    "t4_P4": false,
+    "t5_n_sig": 0,
+    "t5_d1_gap": -0.008617381531239587,
+    "t6_fwd_minus_rev": 0.19999999999999996,
+    "t6_p": 0.512,
+    "nearby": {
+      "baths_as_spa_balneology": "biological = Q13 only; vocab link to plants fails within-hand null (T2)",
+      "zodiac_as_calendar": "Roman-script month names (h05); no Voynichese plant cycling (T3/h06)",
+      "pharma_as_jars": "h09 jar/root labels; no menstrual reading required",
+      "end_stars_as_copy_text": "Q20 matches the same copy/line regime as the rest (T5/h47), not a distinct yoga register"
+    }
+  },
+  "runtime_sec": 31.102964639663696,
+  "seed": 52,
+  "n_perm": 2000
+}
