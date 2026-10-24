@@ -846,7 +846,7 @@ Status key:
   - **Order ok, quire-fragile (2/3).** P1 ρ=1.00 (p=0.008): herbal 72.7 → sky_mid 133.5 → biological 153.9 → pharmaceutical 188.3 → stars 205.0. S1 seven-role ρ=1.00; S2 early-sky ρ=1.00; h53 five-step ρ=1.00 p=0.010; h52 menstrual ρ=0.20 p=0.460.
   - P2 fails: bootstrap ρ p5=0.40 (median 1.00; 72% > 0.6). LOQO drop Q20 → stars mean 112.5 (only early Q8 star pages), ρ=0.40; drop Q13 removes biological (not evaluable). Other LOQO ρ=1.00.
   - P3: revise hybrid picture story to plants → calendar/sky block → baths → pharmacy → stars (full-book means only); note Q8 early stars and Q14 cosmological straddle.
-- **Commits:** 251b17d (prereg), (results and log commit)
+- **Commits:** 251b17d (prereg), 90103f0 (results and log)
 - **Status:** closed (extended order fits means; not quire-robust; picture story revised with caveat; not a reading)
 - **Led to:** —
 
