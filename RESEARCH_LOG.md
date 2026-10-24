@@ -833,7 +833,7 @@ Status key:
   - P4: h51 L1/L2 remain false; picture anchors only (Roman months, jar/root image typology); no EVA glosses.
 - **Commits:** 8c88225 (prereg), 7b9e477 (results and log)
 - **Status:** closed (hybrid supported as working theory; not a reading)
-- **Led to:** —
+- **Led to:** h54 (fold astronomical/cosmological into picture order)
 
 
 ### L64 · 2026-10-24 15:30 · h54 picture order with astronomical/cosmological sky sections
