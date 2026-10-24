@@ -1,0 +1,941 @@
+{
+  "hypothesis": "h54_picture_order_with_sky_sections",
+  "seed": 54,
+  "n_perm": 1000,
+  "n_boot": 1000,
+  "prereg_commit_hint": "committed before computing; see git log for PREREG.md",
+  "t1_extended_order": {
+    "primary": {
+      "order": [
+        "herbal",
+        "sky_mid",
+        "biological",
+        "pharmaceutical",
+        "stars"
+      ],
+      "means_ord": {
+        "herbal": 72.67441860465117,
+        "sky_mid": 133.46666666666667,
+        "biological": 153.89473684210526,
+        "pharmaceutical": 188.25,
+        "stars": 204.96
+      },
+      "spearman_rho": 0.9999999999999999,
+      "kendall_tau": 1.0,
+      "p": 0.008,
+      "null_p95": 0.7999999999999999,
+      "missing_role": false
+    },
+    "sensitivity_S1_seven_role": {
+      "order": [
+        "herbal",
+        "astronomical",
+        "cosmological",
+        "zodiac",
+        "biological",
+        "pharmaceutical",
+        "stars"
+      ],
+      "means_ord": {
+        "herbal": 72.67441860465117,
+        "astronomical": 122.5,
+        "cosmological": 137.4,
+        "zodiac": 137.5,
+        "biological": 153.89473684210526,
+        "pharmaceutical": 188.25,
+        "stars": 204.96
+      },
+      "spearman_rho": 1.0,
+      "kendall_tau": 1.0,
+      "p": 0.0,
+      "null_p95": 0.642857142857143,
+      "missing_role": false
+    },
+    "sensitivity_S2_sky_mid_early": {
+      "order": [
+        "herbal",
+        "sky_mid_early",
+        "biological",
+        "pharmaceutical",
+        "stars"
+      ],
+      "means_ord": {
+        "herbal": 72.67441860465117,
+        "sky_mid_early": 129.77777777777777,
+        "biological": 153.89473684210526,
+        "pharmaceutical": 188.25,
+        "stars": 204.96
+      },
+      "spearman_rho": 0.9999999999999999,
+      "kendall_tau": 1.0,
+      "p": 0.009,
+      "null_p95": 0.7999999999999999,
+      "missing_role": false
+    },
+    "contrast_S3_h53_five_step": {
+      "order": [
+        "herbal",
+        "zodiac",
+        "biological",
+        "pharmaceutical",
+        "stars"
+      ],
+      "means_ord": {
+        "herbal": 72.67441860465117,
+        "zodiac": 137.5,
+        "biological": 153.89473684210526,
+        "pharmaceutical": 188.25,
+        "stars": 204.96
+      },
+      "spearman_rho": 0.9999999999999999,
+      "kendall_tau": 1.0,
+      "p": 0.01,
+      "null_p95": 0.8999999999999998,
+      "missing_role": false
+    },
+    "contrast_S4_h52_menstrual": {
+      "order": [
+        "water_blood",
+        "moon",
+        "plants",
+        "end_yoga"
+      ],
+      "means_ord": {
+        "water_blood": 153.89473684210526,
+        "moon": 137.5,
+        "plants": 85.42758620689655,
+        "end_yoga": 213.0
+      },
+      "spearman_rho": 0.19999999999999998,
+      "kendall_tau": 0.0,
+      "p": 0.46,
+      "null_p95": 0.7999999999999999,
+      "missing_role": false
+    },
+    "sky_map": {
+      "pages": [
+        {
+          "page": "f57v",
+          "quire": 8,
+          "section": "cosmological",
+          "ord": 111,
+          "lfd_hand": "1",
+          "illustration": "C"
+        },
+        {
+          "page": "f58r",
+          "quire": 8,
+          "section": "stars",
+          "ord": 112,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f58v",
+          "quire": 8,
+          "section": "stars",
+          "ord": 113,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f67r1",
+          "quire": 9,
+          "section": "astronomical",
+          "ord": 118,
+          "lfd_hand": "4",
+          "illustration": "A"
+        },
+        {
+          "page": "f67r2",
+          "quire": 9,
+          "section": "astronomical",
+          "ord": 119,
+          "lfd_hand": "4",
+          "illustration": "A"
+        },
+        {
+          "page": "f67v2",
+          "quire": 9,
+          "section": "cosmological",
+          "ord": 120,
+          "lfd_hand": "4",
+          "illustration": "C"
+        },
+        {
+          "page": "f67v1",
+          "quire": 9,
+          "section": "astronomical",
+          "ord": 121,
+          "lfd_hand": "4",
+          "illustration": "A"
+        },
+        {
+          "page": "f68r1",
+          "quire": 9,
+          "section": "astronomical",
+          "ord": 122,
+          "lfd_hand": "4",
+          "illustration": "A"
+        },
+        {
+          "page": "f68r2",
+          "quire": 9,
+          "section": "astronomical",
+          "ord": 123,
+          "lfd_hand": "4",
+          "illustration": "A"
+        },
+        {
+          "page": "f68r3",
+          "quire": 9,
+          "section": "astronomical",
+          "ord": 124,
+          "lfd_hand": "4",
+          "illustration": "A"
+        },
+        {
+          "page": "f68v3",
+          "quire": 9,
+          "section": "cosmological",
+          "ord": 125,
+          "lfd_hand": "4",
+          "illustration": "C"
+        },
+        {
+          "page": "f68v2",
+          "quire": 9,
+          "section": "astronomical",
+          "ord": 126,
+          "lfd_hand": "4",
+          "illustration": "A"
+        },
+        {
+          "page": "f68v1",
+          "quire": 9,
+          "section": "astronomical",
+          "ord": 127,
+          "lfd_hand": "4",
+          "illustration": "A"
+        },
+        {
+          "page": "f69r",
+          "quire": 10,
+          "section": "cosmological",
+          "ord": 128,
+          "lfd_hand": "4",
+          "illustration": "C"
+        },
+        {
+          "page": "f69v",
+          "quire": 10,
+          "section": "cosmological",
+          "ord": 129,
+          "lfd_hand": "4",
+          "illustration": "C"
+        },
+        {
+          "page": "f70r1",
+          "quire": 10,
+          "section": "cosmological",
+          "ord": 130,
+          "lfd_hand": "4",
+          "illustration": "C"
+        },
+        {
+          "page": "f70r2",
+          "quire": 10,
+          "section": "cosmological",
+          "ord": 131,
+          "lfd_hand": "4",
+          "illustration": "C"
+        },
+        {
+          "page": "f70v2",
+          "quire": 10,
+          "section": "zodiac",
+          "ord": 132,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f70v1",
+          "quire": 10,
+          "section": "zodiac",
+          "ord": 133,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f71r",
+          "quire": 11,
+          "section": "zodiac",
+          "ord": 134,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f71v",
+          "quire": 11,
+          "section": "zodiac",
+          "ord": 135,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f72r1",
+          "quire": 11,
+          "section": "zodiac",
+          "ord": 136,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f72r2",
+          "quire": 11,
+          "section": "zodiac",
+          "ord": 137,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f72r3",
+          "quire": 11,
+          "section": "zodiac",
+          "ord": 138,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f72v3",
+          "quire": 11,
+          "section": "zodiac",
+          "ord": 139,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f72v2",
+          "quire": 11,
+          "section": "zodiac",
+          "ord": 140,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f72v1",
+          "quire": 11,
+          "section": "zodiac",
+          "ord": 141,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f73r",
+          "quire": 12,
+          "section": "zodiac",
+          "ord": 142,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f73v",
+          "quire": 12,
+          "section": "zodiac",
+          "ord": 143,
+          "lfd_hand": "4",
+          "illustration": "Z"
+        },
+        {
+          "page": "f85r2",
+          "quire": 14,
+          "section": "cosmological",
+          "ord": 165,
+          "lfd_hand": "2",
+          "illustration": "C"
+        },
+        {
+          "page": "f86v4",
+          "quire": 14,
+          "section": "cosmological",
+          "ord": 166,
+          "lfd_hand": "2",
+          "illustration": "C"
+        },
+        {
+          "page": "f86v3",
+          "quire": 14,
+          "section": "cosmological",
+          "ord": 169,
+          "lfd_hand": "2",
+          "illustration": "C"
+        },
+        {
+          "page": "f103r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 202,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f103v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 203,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f104r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 204,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f104v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 205,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f105r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 206,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f105v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 207,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f106r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 208,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f106v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 209,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f107r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 210,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f107v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 211,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f108r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 212,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f108v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 213,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f111r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 214,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f111v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 215,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f112r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 216,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f112v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 217,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f113r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 218,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f113v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 219,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f114r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 220,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f114v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 221,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f115r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 222,
+          "lfd_hand": "@",
+          "illustration": "S"
+        },
+        {
+          "page": "f115v",
+          "quire": 20,
+          "section": "stars",
+          "ord": 223,
+          "lfd_hand": "3",
+          "illustration": "S"
+        },
+        {
+          "page": "f116r",
+          "quire": 20,
+          "section": "stars",
+          "ord": 224,
+          "lfd_hand": "3",
+          "illustration": "S"
+        }
+      ],
+      "by_section": {
+        "astronomical": {
+          "n": 8,
+          "mean_ord": 122.5,
+          "min_ord": 118,
+          "max_ord": 127,
+          "quires": [
+            9
+          ]
+        },
+        "cosmological": {
+          "n": 10,
+          "mean_ord": 137.4,
+          "min_ord": 111,
+          "max_ord": 169,
+          "quires": [
+            8,
+            9,
+            10,
+            14
+          ]
+        },
+        "zodiac": {
+          "n": 12,
+          "mean_ord": 137.5,
+          "min_ord": 132,
+          "max_ord": 143,
+          "quires": [
+            10,
+            11,
+            12
+          ]
+        },
+        "stars": {
+          "n": 25,
+          "mean_ord": 204.96,
+          "min_ord": 112,
+          "max_ord": 224,
+          "quires": [
+            8,
+            20
+          ]
+        }
+      }
+    },
+    "P1": true
+  },
+  "t2_quire_hand_sensitivity": {
+    "bootstrap": {
+      "n_requested": 1000,
+      "n_valid": 1000,
+      "attempts": 1995,
+      "rho_mean": 0.8261,
+      "rho_median": 0.9999999999999999,
+      "rho_p5": 0.39999999999999997,
+      "rho_p95": 0.9999999999999999,
+      "frac_rho_gt_0_6": 0.72,
+      "P2a": false
+    },
+    "leave_one_quire_out": {
+      "rows": [
+        {
+          "dropped_quire": 1,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 81.1842105263158,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 2,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 78.78260869565217,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 3,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 77.65486725663717,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 4,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 75.38938053097345,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 5,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 73.12389380530973,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 6,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 70.85840707964601,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 7,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 68.59292035398231,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 8,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 71.352,
+            "sky_mid": 134.24137931034483,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 213.0
+          }
+        },
+        {
+          "dropped_quire": 9,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 72.67441860465117,
+            "sky_mid": 138.95,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 10,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 72.67441860465117,
+            "sky_mid": 134.20833333333334,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 11,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 72.67441860465117,
+            "sky_mid": 132.0,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 12,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 72.67441860465117,
+            "sky_mid": 132.82142857142858,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 13,
+          "spearman_rho": null,
+          "evaluable": false,
+          "reason": "missing_role"
+        },
+        {
+          "dropped_quire": 14,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 72.67441860465117,
+            "sky_mid": 129.77777777777777,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 15,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 67.60975609756098,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 196.5,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 17,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 63.109243697478995,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 19,
+          "spearman_rho": 0.9999999999999999,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 72.67441860465117,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 174.5,
+            "stars": 204.96
+          }
+        },
+        {
+          "dropped_quire": 20,
+          "spearman_rho": 0.39999999999999997,
+          "evaluable": true,
+          "means_ord": {
+            "herbal": 72.67441860465117,
+            "sky_mid": 133.46666666666667,
+            "biological": 153.89473684210526,
+            "pharmaceutical": 188.25,
+            "stars": 112.5
+          }
+        }
+      ],
+      "n_evaluable": 17,
+      "min_rho": 0.39999999999999997,
+      "P2b": false
+    },
+    "hand_coverage": {
+      "counts": {
+        "1": {
+          "herbal": 95,
+          "astronomical": 0,
+          "cosmological": 1,
+          "zodiac": 0,
+          "biological": 0,
+          "pharmaceutical": 16,
+          "stars": 0
+        },
+        "2": {
+          "herbal": 20,
+          "astronomical": 0,
+          "cosmological": 3,
+          "zodiac": 0,
+          "biological": 19,
+          "pharmaceutical": 0,
+          "stars": 0
+        },
+        "3": {
+          "herbal": 8,
+          "astronomical": 0,
+          "cosmological": 0,
+          "zodiac": 0,
+          "biological": 0,
+          "pharmaceutical": 0,
+          "stars": 24
+        },
+        "4": {
+          "herbal": 0,
+          "astronomical": 8,
+          "cosmological": 6,
+          "zodiac": 12,
+          "biological": 0,
+          "pharmaceutical": 0,
+          "stars": 0
+        },
+        "5": {
+          "herbal": 6,
+          "astronomical": 0,
+          "cosmological": 0,
+          "zodiac": 0,
+          "biological": 0,
+          "pharmaceutical": 0,
+          "stars": 0
+        },
+        "@": {
+          "herbal": 0,
+          "astronomical": 0,
+          "cosmological": 0,
+          "zodiac": 0,
+          "biological": 0,
+          "pharmaceutical": 0,
+          "stars": 1
+        }
+      },
+      "note": "No single lfd_hand covers the full five-role primary program; sky/zodiac lean hand 4, baths hand 2, Q20 stars hand 3 (report-only).",
+      "hand4_sky_internal_means": {
+        "astronomical_mean_ord": 122.5,
+        "cosmological_mean_ord": 127.16666666666667,
+        "zodiac_mean_ord": 137.5
+      },
+      "P2c_votes": false
+    },
+    "P2": false
+  },
+  "t3_hybrid_story": {
+    "strictly_increasing_primary_means": true,
+    "revise_hybrid_picture_story": true,
+    "revised_story_if_true": "plants \u2192 calendar/sky block (astronomical \u222a cosmological \u222a zodiac) \u2192 baths \u2192 pharmacy \u2192 stars",
+    "interleave_facts": {
+      "astronomical_quires": [
+        9
+      ],
+      "cosmological_quires": [
+        8,
+        9,
+        10,
+        14
+      ],
+      "zodiac_quires": [
+        10,
+        11,
+        12
+      ],
+      "stars_quires": [
+        8,
+        20
+      ],
+      "early_Q8_stars_n": 2,
+      "late_Q20_stars_n": 23,
+      "cosmo_after_biological_n": 3,
+      "cosmo_Q14_n": 3
+    },
+    "P3": true,
+    "disclaimer": "Picture-program revision only. Not a translation. Process-text side of h53 not re-tested."
+  },
+  "predictions": {
+    "P1": true,
+    "P2": false,
+    "P3": true,
+    "n_pass": 2,
+    "verdict": "order_ok_fragile"
+  },
+  "runtime_sec": 14.441658020019531,
+  "disclaimer": "Working theory about picture program order with sky sections. Not a translation. No EVA glosses invented."
+}

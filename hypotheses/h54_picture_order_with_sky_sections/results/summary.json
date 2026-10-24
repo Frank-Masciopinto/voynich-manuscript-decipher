@@ -1,0 +1,42 @@
+{
+  "hypothesis": "h54_picture_order_with_sky_sections",
+  "verdict": "order_ok_fragile",
+  "n_pass": 2,
+  "predictions": {
+    "P1": true,
+    "P2": false,
+    "P3": true
+  },
+  "highlights": {
+    "t1_rho": 0.9999999999999999,
+    "t1_tau": 1.0,
+    "t1_p": 0.008,
+    "t1_means": {
+      "herbal": 72.67441860465117,
+      "sky_mid": 133.46666666666667,
+      "biological": 153.89473684210526,
+      "pharmaceutical": 188.25,
+      "stars": 204.96
+    },
+    "t1_S1_rho": 1.0,
+    "t1_S1_p": 0.0,
+    "t1_S2_rho": 0.9999999999999999,
+    "t1_S2_p": 0.009,
+    "t1_h53_rho": 0.9999999999999999,
+    "t1_h53_p": 0.01,
+    "t1_h52_rho": 0.19999999999999998,
+    "t1_h52_p": 0.46,
+    "t2_boot_rho_p5": 0.39999999999999997,
+    "t2_boot_rho_median": 0.9999999999999999,
+    "t2_loqo_min_rho": 0.39999999999999997,
+    "t2_P2a": false,
+    "t2_P2b": false,
+    "t3_revise": true,
+    "t3_story": "plants \u2192 calendar/sky block (astronomical \u222a cosmological \u222a zodiac) \u2192 baths \u2192 pharmacy \u2192 stars"
+  },
+  "runtime_sec": 14.441658020019531,
+  "seed": 54,
+  "n_perm": 1000,
+  "n_boot": 1000,
+  "disclaimer": "Working theory about picture program order with sky sections. Not a translation. No EVA glosses invented."
+}
