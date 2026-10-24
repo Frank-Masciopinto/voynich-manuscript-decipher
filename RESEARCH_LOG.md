@@ -492,7 +492,7 @@ Status key:
   - Bifolium distance 3.432 (real), 3.294 (shuffle), 2.808 (zipf). Each is ≥4/5 in 5/5 seeds.
   - The real arm matches the h26 anchor seeds exactly, so the engine path is the same one.
   - P1 and P3 pass; P2 fails. Plaintext structure is not what carries the match. The predicted split between word order and spelling does not appear.
-- **Commits:** 814b9e6, 074f01b (results and log)
+- **Commits:** 814b9e6, (results and log commit)
 - **Status:** closed
 - **Led to:** L38
 
@@ -506,7 +506,7 @@ Status key:
   - Bifolium distance 21.96 (letter), 27.50 (state), 143.08 (unit). None matches (rule: distance ≤ 5.43 and ≥4/5 in ≥60% of seeds).
   - Letter and state still reach ≥4/5 in 4/5 seeds. The miss is D4 in every seed (−0.39 and −0.45). The unit shuffle also misses D4 (−1.12) and D5 in 3/5 seeds. Unit order changed in 75.5% of strings.
   - A1 fails; A2 and A3 pass. The pre-registered reading is that no single one of these three cuts is the carrier.
-- **Commits:** 814b9e6, 074f01b (results and log)
+- **Commits:** 814b9e6, (results and log commit)
 - **Status:** closed
 - **Led to:** L39
 
@@ -520,7 +520,7 @@ Status key:
   - On 66 h26 cells, mean word length has the largest correlation with distance (ρ +0.85) and moves against D4 (ρ −0.81). R1 passes.
   - Three cells are ≥0.8 decodable and have D4 ≥ −0.07 (L=3 with V=64 and V=128, L=4 with V=128). Their D4 is +0.38 to +0.48, above the MS window, so T1 fails and none of them is a two-sided D4 match.
   - ρ(D4, V) is +0.11, so T2 fails. No cell is 5/5. The closest are L=2, V=16 and V=32 (4/5, distance 12.7 and 16.8), both under 0.51 decodable.
-- **Commits:** 814b9e6, 074f01b (results and log)
+- **Commits:** 814b9e6, (results and log commit)
 - **Status:** closed
 - **Led to:** —
 
@@ -696,7 +696,7 @@ Status key:
 - **Result:**
   - E1 passes. At distance 80, 1A effect 0.082 against a null 95th percentile of 0.059 (184 same, 45 cross) and 2B 0.100 against 0.074 (4440 / 41). 3B has 23 cross pairs, so it is unscored.
   - E2 fails. Only Pliny passes at distance 80 (0.047 vs 0.014). Boccaccio and cucina have 20 and 12 cross pairs there. At distance 160, Boccaccio and Pliny pass and cucina's effect is −0.26.
-- **Commits:** adf281d (prereg), 074f01b (results and log)
+- **Commits:** adf281d (prereg), (results and log commit)
 - **Status:** lead (folio boundary in 1A and 2B); closed (not the same break as a novella or a recipe)
 - **Led to:** —
 
@@ -709,7 +709,7 @@ Status key:
 - **Result:**
   - B1 fails. MS excess is 1.51, 1.69 and 1.50. fitted_s1 is 1.63 and the h39 tuned copier is 4.76. C0 is 0.15, the h06 pool 0.27, h06 with no pool 0.05, and the h39 graph respelling 0.19.
   - B2 and B3 pass. The per-page vocabulary stream reaches 33.2. In every hand, more of the excess sits inside the folio than inside the quire.
-- **Commits:** adf281d (prereg), 074f01b (results and log)
+- **Commits:** adf281d (prereg), (results and log commit)
 - **Status:** closed (the excess is not evidence of content)
 - **Led to:** —
 
@@ -735,7 +735,7 @@ Status key:
 - **Result:**
   - F1–F3 fail. In Test 1, all three hands pass at `6-20` (`same − cross` +0.020, +0.024, +0.015), and 1A (+0.006 vs null 95th +0.002) and 3B (+0.008 vs +0.007; also `101-500` +0.008 vs +0.006) pass at `21-100`, whereas 2B (+0.006 vs +0.011) does not exceed the rotation null at `21-100` or `101-500`.
   - In Test 2, line 1 has a *lower* one-edit rate with its folio than interior lines do in every hand (−0.017, −0.024, −0.019). In Test 3, `v_to_r − r_to_v` is within noise (+0.004 and −0.001 in 2B).
-- **Commits:** 7992e99 (prereg), 074f01b (results and log)
+- **Commits:** 7992e99 (prereg), (results and log commit)
 - **Status:** closed (first-line seeding and open-spread copying); lead (short-lag `6–20` one-edit chains break at folio edges in all three hands)
 - **Led to:** L57, L58
 
@@ -748,7 +748,7 @@ Status key:
 - **Result:**
   - U1–U3 pass. `page_line_copier` passes 6/6 benchmarks on Hand 1A, 6/6 on Hand 2B, and 6/6 on Hand 3B (5/6 if `d=80` unscored is excluded; `d=160` passes with +0.129 vs +0.061).
   - On Hand 2B, the stored `h39` baselines pass only 1/6 (`h39_native_tuned_2B`) and 2/6 (`h39_C0_graph_2B`).
-- **Commits:** 7992e99 (prereg), 074f01b (results and log)
+- **Commits:** 7992e99 (prereg), (results and log commit)
 - **Status:** lead (a single page-and-line-bounded no-plaintext generator reproduces all six benchmark families simultaneously)
 - **Led to:** —
 
@@ -773,7 +773,7 @@ Status key:
 - **Result:**
   - S1 fails (0/3 hands): `D1_seed` stays negative after de-padding in every MS hand (`local_W25`: −0.225, −0.233, −0.240; `folio_comp`: −0.213, −0.153, −0.124), whereas plain `it_boccaccio` retains positive `D1_seed = +0.032` on `local_W25`.
   - S2 passes (2/3 hands: 1A `mi_adj_z = 2.29`, 2B `2.00`, 3B `1.26`), matched by `page_line_copier_2B` (`2.15`). S3 passes in 3/3 hands: on `local_W25`, MS and `page_line_copier` agree within $\pm 0.08$ on `keep_rate` (max diff 0.073), `D1_seed` (max diff 0.020), and `morphs_per_type` (max diff 0.011).
-- **Commits:** ecacc79 (prereg), 074f01b (results and log)
+- **Commits:** ecacc79 (prereg), (results and log commit)
 - **Status:** closed (de-padding one-edit echoes leaves a seed skeleton indistinguishable from the no-plaintext `h47` generator)
 - **Led to:** —
 
@@ -786,7 +786,7 @@ Status key:
 - **Result:**
   - A1 and A2 fail (0/3 hands); A3 passes (3/3 hands, and also passes in 3/3 `page_line_copier` hands). All MS vertical word streams have negative `D1_vert` (`para_words` −0.083, −0.076, −0.103; `line_words_stripped` −0.220, −0.198, −0.183; vs `cucina` `para_words` +0.427).
   - Vertical first-unit redundancy $R_{\text{acro}}$ (0.394, 0.261, 0.270 bits, driven by gallows on paragraph-first lines) is only 13.7–24.3 % of horizontal within-word redundancy (below the 50 % bar and matching prose controls at 24.4–39.7 %).
-- **Commits:** ecacc79 (prereg), 074f01b (results and log)
+- **Commits:** ecacc79 (prereg), (results and log commit)
 - **Status:** closed (no vertical word syntax or margin glyph acrostic)
 - **Led to:** —
 
@@ -799,7 +799,7 @@ Status key:
 - **Result:**
   - L1 and L2 fail; L3 passes. On own-folio `seed_W25` (`Test 1`), `exact_hit` is 7.7 % ($p_{\text{Holm}} = 0.46$), `edit1_hit` is 33.6 % vs 32.2 % within-quire null ($z = 1.03, p_{\text{Holm}} = 0.46$), and `stem_hit` is 32.9 % vs 32.7 % ($p_{\text{Holm}} = 0.46$). On the 16 same-plant pairs (`Test 2`), de-padded `seed_W25` mean rank percentiles are 0.48–0.59 ($p \ge 0.089$).
   - In `Test 3`, label-linked seeds have larger same-folio one-edit progeny than length-matched unlinked seeds (7.00 vs 5.34, $z = 3.96, p = 0.0005$), but swapping label sets across folios within the same quire produces nearly the same gap (+0.95 vs +1.65, $p = 0.068$), showing that both draw from dense quire-level EVA word shapes rather than folio-specific label seeding.
-- **Commits:** ecacc79 (prereg), 074f01b (results and log)
+- **Commits:** ecacc79 (prereg), (results and log commit)
 - **Status:** closed (labels do not anchor folio-specific paragraph seeds or de-padded herbal–pharma pairs)
 - **Led to:** —
 
@@ -819,4 +819,3 @@ Status key:
 - **Commits:** 80c564c (prereg), 074f01b (results and log)
 - **Status:** closed (thematic reading unsupported; nearby section/calendar/copy readings fit better)
 - **Led to:** —
-
